@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Videotheek App - A Rent Movies System",
+      "description": "This project is a simple rent movie search system built using PHP and MySQL. It allows users to select and rent the favorite movies.",
+      "features": [
+        "Add Movies to Cart: Users can add movies to a shopping cart to keep track of their selections.",
+        "View Cart: Users can view the movies added to their cart.",
+        "Delete Movies: Users can delete movies from their rental list.",
+        "Movie Copies: The system tracks the number of copies of each movie in the store. When a movie is rented, the available copies decrease.",
+        "Database Storage: All rents are saved in a MySQL database.",
+        "MVC Architecture: The project follows the Model-View-Controller (MVC) design pattern for organized and maintainable code."
+      ],
+      "thumbnail": "assets/images/videotheek/thumbnail.png",
+      "images": [
+        "thumbnail.png",
+        "photo2.png",
+        "photo3.png",
+        "videotheek_app_movie.mp4"
+      ],
+      "github": "https://github.com/NlcmarquesDev/videotheek_vdab"
+    },
+    {
+      "id": 2,
+      "name": "NotesFlow - A notes Application System",
+      "description": "This project is a simple rent movie search system built using PHP and MySQL. It allows users to select and rent the favorite movies.",
+      "features": [
+        "Add Movies to Cart: Users can add movies to a shopping cart to keep track of their selections.",
+        "View Cart: Users can view the movies added to their cart.",
+        "Delete Movies: Users can delete movies from their rental list.",
+        "Movie Copies: The system tracks the number of copies of each movie in the store. When a movie is rented, the available copies decrease.",
+        "Database Storage: All rents are saved in a MySQL database.",
+        "MVC Architecture: The project follows the Model-View-Controller (MVC) design pattern for organized and maintainable code."
+      ],
+      "thumbnail": "assets/images/videotheek/thumbnail.png",
+      "images": [
+        "thumbnail.png",
+        "photo2.png",
+        "photo3.png",
+        "videotheek_app_movie.mp4"
+      ],
+      "github": "https://github.com/NlcmarquesDev/videotheek_vdab"
+    }
+  ]
+}
