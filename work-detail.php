@@ -1,6 +1,6 @@
 <?php
-// include('views/partials/header.php');
-// include('views/partials/navbar.php');
+include('views/partials/header.php');
+include('views/partials/navbar.php');
 
 $jsonString = file_get_contents('projects.json');
 
@@ -23,8 +23,8 @@ if (empty($projectById)) {
 	header('location:index.php');
 	exit();
 }
-var_dump($projectById);
-die();
+
+$project = $projectById[0];
 ?>
 
 <!-- Content-->
@@ -36,7 +36,7 @@ die();
 
 			<!-- page-title -->
 			<div class="page-title pb-40">
-				<h2 class="page-title__title">The Myth of Ugly Design</h2>
+				<h2 class="page-title__title"><?= $project['name'] ?></h2>
 				<p class="page-title__text">Nam elit ligula, egestas et ornare non, </p>
 				<div class="page-title__divider"></div>
 			</div><!-- End / page-title -->
@@ -53,47 +53,31 @@ die();
 			<!--  -->
 			<div>
 				<div class="work-detail__entry">
-					<p>In nec porttitor nisi. Nunc at egestas ante. Sed vestibulum velit eu nibh commodo, non fermentum libero pellentesque. Fusce sed posuere ex, non ultrices nibh. Fusce quis leo non ex rutrum convallis non ut ante. Phasellus hendrerit ante nec est porta, et elementum massa euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-					<p>Quisque et quam facilisis, posuere justo ut, maximus nulla. Quisque id fermentum tortor. Duis sem mi, luctus sed luctus eget, viverra et ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec faucibus imperdiet porttitor. Etiam fringilla ligula et porttitor tristique..</p><br>
-					<div class="work-img"><img src="assets/img/works/01.jpg" alt=""></div>
-					<div class="work-img"><img src="assets/img/works/02.jpg" alt=""></div>
-					<div class="work-img"><img src="assets/img/works/03.jpg" alt=""></div>
+					<h3>Description</h3>
+					<p><?= $project['description'] ?></p><br>
+					<h3>Features</h3>
+					<?php foreach ($project['features'] as $feature) : ?>
+						<p><?= $feature ?></p><br>
+					<?php endforeach ?>
+
+					<a class="github-link" href="<?= $project['github'] ?>">
+						<h3>GitHub Source Code - ckick me! </h3>
+					</a><br>
+					<h3>Images</h3>
+					<?php foreach ($project['images'] as $image) : ?>
+						<div class="work-img pb-3"><img src="<?= $image ?>" alt=""></div>
+					<?php endforeach ?>
+					<div class=" ">
+						<h3>Short video example</h3>
+						<video class="mt-4 mx-auto" src="<?= $project['video'] ?>" type="video/mp4" width="720" height="540" controls="controls" autoplay="autoplay"></video>
+					</div>
 				</div>
-				<div class="sharebox__module awe-text-center">
-					<p class="social-text">SHARE THIS WORK</p>
 
-					<!-- social-icon -->
-					<a class="social-icon" href="#"><i class="social-icon__icon fa fa-facebook"></i>
-					</a><!-- End / social-icon -->
-
-
-					<!-- social-icon -->
-					<a class="social-icon" href="#"><i class="social-icon__icon fa fa-twitter"></i>
-					</a><!-- End / social-icon -->
-
-
-					<!-- social-icon -->
-					<a class="social-icon" href="#"><i class="social-icon__icon fa fa-linkedin"></i>
-					</a><!-- End / social-icon -->
-
-
-					<!-- social-icon -->
-					<a class="social-icon" href="#"><i class="social-icon__icon fa fa-behance"></i>
-					</a><!-- End / social-icon -->
-
-
-					<!-- social-icon -->
-					<a class="social-icon" href="#"><i class="social-icon__icon fa fa-vimeo"></i>
-					</a><!-- End / social-icon -->
-
+				<div class="awe-text-center mt-50">
+					<a class="md-btn md-btn--outline-primary " href="index.php">All works
+					</a>
 				</div>
-			</div><!-- End /  -->
-
-			<div class="awe-text-center mt-50">
-				<a class="md-btn md-btn--outline-primary " href="#">All work
-				</a>
 			</div>
-		</div>
 	</section>
 	<!-- End / Section -->
 

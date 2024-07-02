@@ -14,11 +14,11 @@
       ],
       "thumbnail": "assets/images/videotheek/thumbnail.png",
       "images": [
-        "thumbnail.png",
-        "photo2.png",
-        "photo3.png",
-        "videotheek_app_movie.mp4"
+        "assets/images/videotheek/thumbnail.png",
+        "assets/images/videotheek/photo2.png",
+        "assets/images/videotheek/photo3.png"
       ],
+      "video": "assets/images/videotheek/videotheek_app_movie.mp4",
       "github": "https://github.com/NlcmarquesDev/videotheek_vdab"
     },
     {
@@ -35,11 +35,11 @@
       ],
       "thumbnail": "assets/images/videotheek/thumbnail.png",
       "images": [
-        "thumbnail.png",
-        "photo2.png",
-        "photo3.png",
-        "videotheek_app_movie.mp4"
+        "assets/images/videotheek/thumbnail.png",
+        "assets/images/videotheek/photo2.png",
+        "assets/images/videotheek/photo3.png"
       ],
+      "video": "assets/images/videotheek/videotheek_app_movie.mp4",
       "github": "https://github.com/NlcmarquesDev/videotheek_vdab"
     }
   ]
