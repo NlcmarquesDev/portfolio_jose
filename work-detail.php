@@ -61,16 +61,18 @@ $project = $projectById[0];
 					<?php endforeach ?>
 
 					<a class="github-link" href="<?= $project['github'] ?>">
-						<h3>GitHub Source Code - ckick me! </h3>
+						<h3>GitHub Source Code - Click me! </h3>
 					</a><br>
 					<h3>Images</h3>
 					<?php foreach ($project['images'] as $image) : ?>
 						<div class="work-img pb-3"><img src="<?= $image ?>" alt=""></div>
 					<?php endforeach ?>
-					<div class=" ">
-						<h3>Short video example</h3>
-						<video class="mt-4 mx-auto" src="<?= $project['video'] ?>" type="video/mp4" width="720" height="540" controls="controls" autoplay="autoplay"></video>
-					</div>
+					<?php if (isset($project['video'])) : ?>
+						<div class=" ">
+							<h3>Short video example</h3>
+							<video class="mt-4 mx-auto" src="<?= $project['video'] ?>" type="video/mp4" width="720" height="540" controls="controls" autoplay="autoplay"></video>
+						</div>
+					<?php endif ?>
 				</div>
 
 				<div class="awe-text-center mt-50">

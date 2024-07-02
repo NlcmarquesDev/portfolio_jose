@@ -23,24 +23,134 @@
     },
     {
       "id": 2,
-      "name": "NotesFlow - A notes Application System",
-      "description": "This project is a simple rent movie search system built using PHP and MySQL. It allows users to select and rent the favorite movies.",
+      "name": "Sandwich Ordering Platform",
+      "description": "<p>This project is a sandwich ordering platform designed specifically for a school. It allows registered students to place sandwich orders before 10 AM each day. Students can select multiple sandwiches with different types of bread and ingredients.</p><p>To use the platform, students must be registered and their accounts must be verified via email. Students can login by providing their email and password.</p><p>A confirmation email is sent to the provided email address.</p><p>If a student forgets their password, they can request a new one. A new password is sent to their email and must be confirmed to become active.</p>",
       "features": [
-        "Add Movies to Cart: Users can add movies to a shopping cart to keep track of their selections.",
-        "View Cart: Users can view the movies added to their cart.",
-        "Delete Movies: Users can delete movies from their rental list.",
-        "Movie Copies: The system tracks the number of copies of each movie in the store. When a movie is rented, the available copies decrease.",
-        "Database Storage: All rents are saved in a MySQL database.",
+        "User Registration: Students must register to use the platform. During registration, a confirmation email is sent to the student's email address. The account becomes valid only after the email is confirmed.",
+        "Multiple Orders: Students can select and order multiple sandwiches with various ingredients.",
+        "Email Confirmation: Email confirmation is required for both registration and password reset, enhancing security and validity of user accounts.",
+        "Forgot Password: Students can request a new password if they forget their current one. A new password is sent via email and must be confirmed before it becomes active.",
+        "Model-View-Controller (MVC): Architecture for organizing codebase efficiently."
+      ],
+      "thumbnail": "assets/images/sandwich/photo1.png",
+      "images": [
+        "assets/images/sandwich/photo1.png",
+        "assets/images/sandwich/photo2.png",
+        "assets/images/sandwich/photo3.png",
+        "assets/images/sandwich/photo4.png",
+        "assets/images/sandwich/photo5.png"
+      ],
+      "github": "https://github.com/NlcmarquesDev/sandwich-school-app"
+    },
+    {
+      "id": 3,
+      "name": "Beverage Machine App",
+      "description": "<p>This project is a beverage vending machine simulator built using the MVC (Model-View-Controller) design pattern. The app allows users to select beverages, simulate coin insertion, and receive a confirmation message once the transaction is complete.</p><p> Additionally, there's an admin panel for viewing orders and beverages dispensed, accessible only through a secure login.</p>",
+      "features": [
+        "User Interface: Select beverages, insert coins, and get a confirmation message.",
+        "Admin Panel: View orders and dispensed beverages with login authentication.",
+        "MVC Pattern: Separation of concerns with Model, View, and Controller layers.",
+        "MySQL Integration: Data persistence for orders and beverages.",
+        "Select Beverage: Choose a beverage from the list.",
+        "Insert Coins: Click on the buttons to simulate coin insertion.",
+        "Get Confirmation: Once the required amount is inserted, receive a message indicating that the beverage can be retrieved.",
+        "View Orders: After logging in, view the list of orders and beverages dispensed."
+      ],
+      "thumbnail": "assets/images/drinks/dashboard.png",
+      "images": [
+        "assets/images/drinks/drink_app.png",
+        "assets/images/drinks/dashboard.png",
+        "assets/images/drinks/adddrink.png",
+        "assets/images/drinks/drinks.png",
+        "assets/images/drinks/orders.png"
+      ],
+      "github": "https://github.com/NlcmarquesDev/machine_drinks"
+    },
+    {
+      "id": 4,
+      "name": "Job Lister: A Simple Job Search System",
+      "description": "<p>This project is a simple job search system built using PHP and MySQL. It allows users to post job openings and for candidates to search for positions based on their qualifications.</p>",
+      "features": [
+        "Category Filter: Users can filter job postings by category, such as 'Technology','Marketing', or 'Sales'.",
+        "Pagination: Search results are paginated for easier navigation.",
+        "Form with Various Inputs: The job search form allows users to filter by various criteria like experience, salary, and location.",
+        "Database Storage: Job openings and applications are saved in a MySQL database."
+      ],
+      "thumbnail": "assets/images/job/photo1.png",
+      "images": [
+        "assets/images/job/photo1.png",
+        "assets/images/job/photo2.png",
+        "assets/images/job/photo3.png",
+        "assets/images/job/photo4.png"
+      ],
+      "video": "assets/images/job/sample.mov",
+      "github": "https://github.com/NlcmarquesDev/Job-Lister"
+    },
+    {
+      "id": 5,
+      "name": "Trello Clone Edition",
+      "description": "<p>Welcome to Trello Clone Edition, a project inspired by the popular project management tool, Trello. This simple yet powerful application allows you to organize your tasks, projects, and ideas on digital boards, bringing efficiency and collaboration to your workflow.</p>",
+      "features": [
+        "Board Creation: Create multiple boards to categorize and manage different projects or aspects of your life.",
+        "Lists and Cards: Organize your work into lists, and add individual tasks or ideas as cards within each list.",
+        "Drag-and-Drop Interface: Easily move cards between lists and reorder them within a list using a simple drag-and-drop action.",
+        "Labels: Use color-coded labels to categorize cards based on priority, status, or any custom criteria you desire."
+      ],
+      "thumbnail": "assets/images/trello/photo1.png",
+      "images": [
+        "assets/images/trello/photo1.png",
+        "assets/images/trello/photo2.png"
+      ],
+      "github": "https://github.com/NlcmarquesDev/trello_mini_edition"
+    },
+    {
+      "id": 6,
+      "name": "Ecommerce web application ",
+      "description": "<p>This project is a comprehensive eCommerce platform built using the Laravel framework and MySQL. It provides a full-featured online store experience, including user authentication, product management, category management, and filtering capabilities.</p>",
+      "features": [
+        "User Authentication: Secure login and registration system for users.",
+        "Product Management: Admins can add, edit, and delete products from the store.",
+        "Category Management: Admins can manage product categories to organize the store.",
+        "User Management: Admins can manage users and their roles within the platform.",
+        "Product Filters: Users can filter products based on categories, price, and other attributes.",
+        "Order history for users.",
+        "Admin panel to manage products, orders and users.",
+        "Database Storage: All data is stored securely in a MySQL database.",
         "MVC Architecture: The project follows the Model-View-Controller (MVC) design pattern for organized and maintainable code."
       ],
-      "thumbnail": "assets/images/videotheek/thumbnail.png",
+      "thumbnail": "assets/images/ecommerce/photo1.png",
       "images": [
-        "assets/images/videotheek/thumbnail.png",
-        "assets/images/videotheek/photo2.png",
-        "assets/images/videotheek/photo3.png"
+        "assets/images/ecommerce/photo1.png",
+        "assets/images/ecommerce/photo2.png",
+        "assets/images/ecommerce/photo3.png",
+        "assets/images/ecommerce/photo4.png",
+        "assets/images/ecommerce/photo5.png",
+        "assets/images/ecommerce/photo6.png",
+        "assets/images/ecommerce/photo7.png",
+        "assets/images/ecommerce/photo8.png",
+        "assets/images/ecommerce/photo9.png"
       ],
-      "video": "assets/images/videotheek/videotheek_app_movie.mp4",
-      "github": "https://github.com/NlcmarquesDev/videotheek_vdab"
+      "github": "https://github.com/NlcmarquesDev/finalproject_ecommerce"
+    },
+    {
+      "id": 7,
+      "name": "NotesFlow application ",
+      "description": "<p>This project is a notes application built using pure PHP and MySQL. It allows users to create, read, update, and delete notes 'CRUD', mark notes as prioritized, and filter notes by title or description.</p><p>Each user can only see their own notes through a secure login system.</p>",
+      "features": [
+        "User Authentication: Secure login and registration system for users.",
+        "CRUD Operations: Users can create, read, update, and delete their notes.",
+        "Prioritize Notes: Users can mark notes as prioritized.",
+        "Filter Notes: Users can filter notes by title or description.",
+        "Database Storage: All notes and user information are stored securely in a MySQL database."
+      ],
+      "thumbnail": "assets/images/notes/photo1.png",
+      "images": [
+        "assets/images/notes/photo1.png",
+        "assets/images/notes/photo2.png",
+        "assets/images/notes/photo3.png",
+        "assets/images/notes/photo4.png"
+      ],
+      "github": "https://github.com/NlcmarquesDev/NotesFlow"
     }
   ]
 }
