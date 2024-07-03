@@ -122,6 +122,8 @@
       $("h2, h3, h5").addClass("dark-mode");
       $("#work, #contact, #about, #single-work").toggleClass("bg-gray");
       $(".md-btn").css({ color: "white" });
+      // document.cookie = "theme=dark; path=/";
+      // location.reload();
     }
 
     // Toggle theme on button click and set the cookie
@@ -130,12 +132,14 @@
       $("h2, h3, h5").toggleClass("dark-mode");
       $("#work, #contact, #about, #single-work").toggleClass("bg-gray");
       $(".md-btn").css({ color: "white" });
-
       if ($("body").hasClass("dark-mode")) {
         document.cookie = "theme=dark; path=/";
+        // location.reload();
       } else {
         document.cookie = "theme=light; path=/";
       }
+      location.reload();
+      console.log(document.cookie);
     });
   });
 

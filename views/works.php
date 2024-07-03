@@ -25,7 +25,7 @@ function ranfEffect()
                                     <!-- hb_back -->
                                     <div class="hb_back d-flex flex-column justify-content-between">
                                         <div>
-                                            <h2 class="work__title"><?= $project['name'] ?></h2><span class="work__text">View detail</span>
+                                            <h4 class="work__title"><?= $project['name'] ?></h4><span class="work__text">View detail</span>
                                         </div>
                                         <div class="d-flex justify-content-end align-items-center gap-4">
                                             <?php foreach ($project['icons'] as $icon) : ?>

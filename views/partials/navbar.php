@@ -19,7 +19,7 @@
                 <li class="nav-item"><a class="nav-link page-title__text mx-2 " href="index.php#contact">Contact</a>
                 </li>
                 <li>
-                    <button id="toggle-theme">Toggle dark mode</button>
+                    <button id="toggle-theme" class="border-0 bg-transparent"> <i class="fa-regular fa-<?= $_COOKIE['theme'] == 'dark' ? 'lightbulb' : 'moon' ?> " style="color: #737272;"> </i></button>
                 </li>
             </ul>
 

@@ -2,10 +2,10 @@
 include('views/partials/header.php');
 include('views/partials/navbar.php');
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-	$theme = $_POST['theme'];
-	setcookie('theme', $theme, time() + (86400 * 30), "/"); // 86400 = 1 day
-}
+// if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+// 	$theme = $_POST['theme'];
+// 	setcookie('theme', $theme, time() + (86400 * 30), "/"); // 86400 = 1 day
+// }
 
 $jsonString = file_get_contents('projects.json');
 
