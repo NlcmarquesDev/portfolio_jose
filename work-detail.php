@@ -77,6 +77,8 @@ $project = $projectById[0];
 				<div class="awe-text-center mt-50">
 					<a class="md-btn md-btn--outline-primary " href="index.php">All works
 					</a>
+					<a class="md-btn md-btn--outline-primary " href="index.php?email=sendX#contact">Ask for More
+					</a>
 				</div>
 			</div>
 	</section>

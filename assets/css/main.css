@@ -535,7 +535,7 @@ select2::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder,
 select::-webkit-input-placeholder,
 product__number:not([type="text"])::-webkit-input-placeholder {
-  color: #c0c0c0;
+  color: #6d6d6d;
   text-transform: capitalize;
 }
 
@@ -546,7 +546,7 @@ select2::-moz-placeholder,
 textarea::-moz-placeholder,
 select::-moz-placeholder,
 product__number:not([type="text"])::-moz-placeholder {
-  color: #c0c0c0;
+  color: #6d6d6d;
   text-transform: capitalize;
 }
 

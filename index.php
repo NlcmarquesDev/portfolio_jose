@@ -2,11 +2,6 @@
 include('views/partials/header.php');
 include('views/partials/navbar.php');
 
-// if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-// 	$theme = $_POST['theme'];
-// 	setcookie('theme', $theme, time() + (86400 * 30), "/"); // 86400 = 1 day
-// }
-
 $jsonString = file_get_contents('projects.json');
 
 $data = json_decode($jsonString, true);
@@ -14,16 +9,13 @@ $data = json_decode($jsonString, true);
 $projects = $data['projects'];
 
 
-if ($_GET['email'] == 'send') {
+if (isset($_GET['email'])) {
 	$subject = 'Meeting';
 	$messageEmail = 'Hallo, José
 I would be interested to receive further details about…
 Best Regards
 Your name.....
 	';
-
-	// header('location:index.php#contact');
-	// exit();
 }
 
 
@@ -88,7 +80,7 @@ Your name.....
 						<p class="about__text">I love transforming ideas into functional and intuitive web applications, always seeking the best solutions for each challenge.</p>
 						<p class="about__text">My development journey has taken me to Belgium, where the adventure of living in a new country has inspired me to set new goals and explore new paths.</p>
 						<p class="about__text">I believe that curiosity and the willingness to learn are the keys to creating quality software.</p>
-						<a href="index.php?email=send">
+						<a href="index.php?email=sendX#contact">
 							<p class="about__text"><b>Let's build something amazing together!</b></p>
 						</a>
 
@@ -201,8 +193,8 @@ Your name.....
 						</div><!-- End / form-item -->
 
 						<!-- form-item -->
-						<div class="form-item text-dark">
-							<textarea class="text-dark" placeholder="<?= isset($messageEmail) ? $messageEmail : 'Your message' ?>" style="min-height:200px;"></textarea>
+						<div class="form-item ">
+							<textarea class="" placeholder="<?= isset($messageEmail) ? $messageEmail : 'Your message' ?>" style="min-height:200px; color:black"></textarea>
 						</div><!-- End / form-item -->
 
 						<!-- form-item -->

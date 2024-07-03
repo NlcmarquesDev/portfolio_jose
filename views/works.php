@@ -42,8 +42,8 @@ function ranfEffect()
         <?php endforeach ?>
     </div>
 </div>
-<div class="awe-text-center mt-50">
+<!-- <div class="awe-text-center mt-50">
     <a class="md-btn md-btn--outline-primary" href="index.php">all work
     </a>
-</div>
+</div> -->
 <img src="" alt="">
