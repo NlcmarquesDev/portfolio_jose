@@ -19,7 +19,11 @@
         "assets/images/videotheek/photo3.png"
       ],
       "video": "assets/images/videotheek/videotheek_app_movie.mp4",
-      "github": "https://github.com/NlcmarquesDev/videotheek_vdab"
+      "github": "https://github.com/NlcmarquesDev/videotheek_vdab",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
     },
     {
       "id": 2,
@@ -40,7 +44,11 @@
         "assets/images/sandwich/photo4.png",
         "assets/images/sandwich/photo5.png"
       ],
-      "github": "https://github.com/NlcmarquesDev/sandwich-school-app"
+      "github": "https://github.com/NlcmarquesDev/sandwich-school-app",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
     },
     {
       "id": 3,
@@ -64,7 +72,11 @@
         "assets/images/drinks/drinks.png",
         "assets/images/drinks/orders.png"
       ],
-      "github": "https://github.com/NlcmarquesDev/machine_drinks"
+      "github": "https://github.com/NlcmarquesDev/machine_drinks",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
     },
     {
       "id": 4,
@@ -84,7 +96,11 @@
         "assets/images/job/photo4.png"
       ],
       "video": "assets/images/job/sample.mov",
-      "github": "https://github.com/NlcmarquesDev/Job-Lister"
+      "github": "https://github.com/NlcmarquesDev/Job-Lister",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
     },
     {
       "id": 5,
@@ -101,7 +117,10 @@
         "assets/images/trello/photo1.png",
         "assets/images/trello/photo2.png"
       ],
-      "github": "https://github.com/NlcmarquesDev/trello_mini_edition"
+      "github": "https://github.com/NlcmarquesDev/trello_mini_edition",
+      "icons": [
+        "<i class='fa-brands fa-vuejs fa-2xl' style='color: #09b984;'></i>"
+      ]
     },
     {
       "id": 6,
@@ -130,7 +149,12 @@
         "assets/images/ecommerce/photo8.png",
         "assets/images/ecommerce/photo9.png"
       ],
-      "github": "https://github.com/NlcmarquesDev/finalproject_ecommerce"
+      "github": "https://github.com/NlcmarquesDev/finalproject_ecommerce",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<i class='fa-brands fa-laravel fa-2xl' style='color: #e70808;'></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
     },
     {
       "id": 7,
@@ -150,7 +174,11 @@
         "assets/images/notes/photo3.png",
         "assets/images/notes/photo4.png"
       ],
-      "github": "https://github.com/NlcmarquesDev/NotesFlow"
+      "github": "https://github.com/NlcmarquesDev/NotesFlow",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
     }
   ]
 }

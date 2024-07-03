@@ -8,17 +8,17 @@
             <div class="col-md-6 col-lg-6 ">
                 <div class="footer__social">
                     <!-- social-icon -->
-                    <a class="social-icon" href="#"><i class="social-icon__icon fa fa-linkedin"></i>
+                    <a class="social-icon" href="https://www.linkedin.com/in/nuno-lcm/"><i class="fa-brands fa-linkedin"></i>
                     </a><!-- End / social-icon -->
 
 
                     <!-- social-icon -->
-                    <a class="social-icon" href="#"><i class="social-icon__icon fa fa-github"></i>
+                    <a class="social-icon" href="https://github.com/NlcmarquesDev"><i class="fa-brands fa-github" style="color: #000000;"></i>
                     </a><!-- End / social-icon -->
 
 
                     <!-- social-icon -->
-                    <a class="social-icon" href="#"><i class="social-icon__icon fa fa-spotify"></i>
+                    <a class="social-icon" href="#"><i class="fa-brands fa-spotify" style="color: #63E6BE;"></i>
                     </a><!-- End / social-icon -->
 
                 </div>

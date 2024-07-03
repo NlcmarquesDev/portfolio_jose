@@ -18,7 +18,11 @@
                 </li>
                 <li class="nav-item"><a class="nav-link page-title__text mx-2 " href="index.php#contact">Contact</a>
                 </li>
+                <li>
+                    <button id="toggle-theme">Toggle dark mode</button>
+                </li>
             </ul>
+
         </nav>
         <div class="navbar-toggle" id="fs-button">
             <div class="navbar-icon"><span></span></div>
@@ -37,6 +41,7 @@
                 <li><a href="#contact">Contact</a>
                 </li>
             </ul>
+
         </nav>
     </div>
 

@@ -23,8 +23,15 @@ function ranfEffect()
                                     <div class="hb_front"><img src="<?= $project['thumbnail'] ?>" alt="" />
                                     </div><!-- End / hb_front -->
                                     <!-- hb_back -->
-                                    <div class="hb_back">
-                                        <h2 class="work__title"><?= $project['name'] ?></h2><span class="work__text">View detail</span>
+                                    <div class="hb_back d-flex flex-column justify-content-between">
+                                        <div>
+                                            <h2 class="work__title"><?= $project['name'] ?></h2><span class="work__text">View detail</span>
+                                        </div>
+                                        <div class="d-flex justify-content-end align-items-center gap-4">
+                                            <?php foreach ($project['icons'] as $icon) : ?>
+                                                <?= $icon ?>
+                                            <?php endforeach ?>
+                                        </div>
                                     </div><!-- End / hb_back -->
                                 </div><!-- End / hoverbox ef-slide-bottom -->
                             </a>
@@ -39,3 +46,4 @@ function ranfEffect()
     <a class="md-btn md-btn--outline-primary" href="index.php">all work
     </a>
 </div>
+<img src="" alt="">
