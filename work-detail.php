@@ -37,7 +37,6 @@ $project = $projectById[0];
 			<!-- page-title -->
 			<div class="page-title pb-40">
 				<h2 class="page-title__title"><?= $project['name'] ?></h2>
-				<p class="page-title__text">Nam elit ligula, egestas et ornare non, </p>
 				<div class="page-title__divider"></div>
 			</div><!-- End / page-title -->
 
@@ -47,7 +46,7 @@ $project = $projectById[0];
 
 
 	<!-- Section -->
-	<section class="awe-section bg-gray">
+	<section id="single-work" class="awe-section bg-gray">
 		<div class="container">
 
 			<!--  -->

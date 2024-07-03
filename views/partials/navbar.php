@@ -3,9 +3,9 @@
     <div class="header__inner">
         <a class="text-decoration-none" href="index.php">
             <div class="header__logo">
-                <h3 class="">
+                <h1 class="fs-1">
                     <span class="text-danger ">Jo</span><span>sé Marques</span>
-                </h3>
+                </h1>
             </div>
         </a>
         <nav class="navbar navbar-main ">

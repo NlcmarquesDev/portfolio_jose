@@ -89,15 +89,54 @@
     });
   });
 
-  $("#toggle-theme").click(function () {
-    $("body").toggleClass("dark-mode");
-    $("h2").toggleClass("dark-mode");
-    $("h3").toggleClass("dark-mode");
-    $("h5").toggleClass("dark-mode");
-    $("#work").toggleClass("bg-gray");
-    $("#contact").toggleClass("bg-gray");
-    $("#about").toggleClass("bg-gray");
-    $(".md-btn").css({ color: "white" });
+  // $("#toggle-theme").click(function () {
+  //   $("body").toggleClass("dark-mode");
+  //   $("h2").toggleClass("dark-mode");
+  //   $("h3").toggleClass("dark-mode");
+  //   $("h5").toggleClass("dark-mode");
+  //   $("#work").toggleClass("bg-gray");
+  //   $("#contact").toggleClass("bg-gray");
+  //   $("#about").toggleClass("bg-gray");
+  //   $("#single-work").toggleClass("bg-gray");
+  //   $(".md-btn").css({ color: "white" });
+  //   document.cookie = "theme-true";
+  //   // location.reload();
+  // });
+
+  $(document).ready(function () {
+    // Function to get the value of a cookie by name
+    function getCookie(name) {
+      let matches = document.cookie.match(
+        new RegExp(
+          "(?:^|; )" +
+            name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, "\\$1") +
+            "=([^;]*)"
+        )
+      );
+      return matches ? decodeURIComponent(matches[1]) : undefined;
+    }
+
+    // Apply the saved theme on page load
+    if (getCookie("theme") === "dark") {
+      $("body").addClass("dark-mode");
+      $("h2, h3, h5").addClass("dark-mode");
+      $("#work, #contact, #about, #single-work").toggleClass("bg-gray");
+      $(".md-btn").css({ color: "white" });
+    }
+
+    // Toggle theme on button click and set the cookie
+    $("#toggle-theme").click(function () {
+      $("body").toggleClass("dark-mode");
+      $("h2, h3, h5").toggleClass("dark-mode");
+      $("#work, #contact, #about, #single-work").toggleClass("bg-gray");
+      $(".md-btn").css({ color: "white" });
+
+      if ($("body").hasClass("dark-mode")) {
+        document.cookie = "theme=dark; path=/";
+      } else {
+        document.cookie = "theme=light; path=/";
+      }
+    });
   });
 
   /**
