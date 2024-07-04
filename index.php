@@ -20,11 +20,6 @@ Your name.....
 	';
 }
 
-
-
-// var_dump($projects);
-// die();
-
 ?>
 
 <!-- Content-->
@@ -41,7 +36,13 @@ Your name.....
 				</h2>
 				<p class="page-title__text"></p>
 				<div class="page-title__divider"></div>
+
 			</div>
+			<?php if (isset($_SESSION['alert'])) : ?>
+				<div class="alert alert-success" role="alert">
+					<?php echo  $_SESSION['alert'] ?>
+				</div>
+			<?php endif ?>
 	</section>
 	<!-- End / HERO -->
 
@@ -50,6 +51,7 @@ Your name.....
 	<section class="awe-section bg-gray" id="work">
 		<div class="container">
 			<div class="row">
+
 				<div class="col-lg-6 ">
 					<div class="title">
 						<h2 class="title__title"><?php echo __('Things I\'ve done') ?>...</h2>
@@ -185,26 +187,33 @@ Your name.....
 				</div>
 				<div class="col-md-7 col-lg-8 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-1 ">
 					<div class="form-wrapper">
+						<form action="emailServices.php" method="POST">
+							<!-- form-item -->
+							<div class="form-item form-item--half">
+								<input class="" type="email" name="email" placeholder="<?php echo __('your email') ?>" required />
+							</div><!-- End / form-item -->
+							<!-- form-item -->
+							<div class="form-item">
+								<input class="" type="text" name="subject" placeholder="<?= isset($subject) ? $subject : 'Subject' ?>" required />
+							</div><!-- End / form-item -->
 
-						<!-- form-item -->
-						<div class="form-item form-item--half">
-							<input class="" type="text" name="input" placeholder="<?php echo __('your email') ?>" />
-						</div><!-- End / form-item -->
-						<!-- form-item -->
-						<div class="form-item">
-							<input class="" type="text" name="input" placeholder="<?= isset($subject) ? $subject : 'Subject' ?>" />
-						</div><!-- End / form-item -->
+							<!-- form-item -->
+							<div class="form-item ">
+								<textarea name="message" placeholder="<?= isset($messageEmail) ? $messageEmail : 'Your message' ?>" style="min-height:200px; color:black" required></textarea>
+							</div><!-- End / form-item -->
+							<?php if (isset($_SESSION['errors'])) : ?>
+								<div class="alert alert-danger mx-4" role="alert">
+									<div class="contact__text "><?php echo  $_SESSION['errors'] ?></div>
 
-						<!-- form-item -->
-						<div class="form-item ">
-							<textarea class="" placeholder="<?= isset($messageEmail) ? $messageEmail : 'Your message' ?>" style="min-height:200px; color:black"></textarea>
-						</div><!-- End / form-item -->
+								</div>
+							<?php endif ?>
 
-						<!-- form-item -->
-						<div class="form-item">
-							<a class="md-btn md-btn--primary md-btn--lg " href="#"><?php echo __('Send message') ?>
-							</a>
-						</div><!-- End / form-item -->
+							<!-- form-item -->
+							<div class="form-item">
+								<button type="submit" class="md-btn md-btn--primary md-btn--lg "><?php echo __('Send message') ?>
+								</button>
+							</div><!-- End / form-item -->
+						</form>
 
 					</div>
 				</div>
@@ -221,5 +230,7 @@ Your name.....
 
 
 <?php
+unset($_SESSION['alert']);
+unset($_SESSION['errors']);
 include('views/partials/footer.php');
 ?>
