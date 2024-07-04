@@ -29,9 +29,9 @@ Your name.....
 	<section class="awe-section" id="hero">
 		<div class="container">
 			<div class="page-title">
-				<h2 class="page-title__title">Hello, my name is José Marques.<br>I
+				<h2 class="page-title__title"><?php echo __('Hello, my name is ') ?>José Marques.<br><?php echo __('I') ?>
 					<div class="typing__module">
-						<div class="typed-strings"><span>'m a web developer</span><span> do web applications</span><span>'m a full stack developer</span>
+						<div class="typed-strings"><span><?php echo __('\'m a') ?> web developer</span><span><?php echo __('do') ?> web applications</span><span><?php echo __('\'m a') ?> full stack developer</span>
 						</div><span class="typed"></span>
 				</h2>
 				<p class="page-title__text"></p>
@@ -47,7 +47,7 @@ Your name.....
 			<div class="row">
 				<div class="col-lg-6 ">
 					<div class="title">
-						<h2 class="title__title">Things I've done...</h2>
+						<h2 class="title__title"><?php echo __('Things I\'ve done') ?>...</h2>
 					</div>
 				</div>
 			</div>
@@ -60,7 +60,7 @@ Your name.....
 	<section class="awe-section">
 		<div class="container">
 			<div class="page-title pb-40">
-				<h2 class="page-title__title">About me</h2>
+				<h2 class="page-title__title"><?php echo __('About me') ?></h2>
 				<div class="page-title__divider"></div>
 			</div>
 
@@ -77,12 +77,12 @@ Your name.....
 					<div class="mt-30">
 						<h2 class="about__title">José Marques</h2>
 						<!-- <p class="about__subtitle">Just Keep Scrolling! How To Design Lengthy, Lengthy Pages</p> -->
-						<p class="about__text">👋 Junior Full Stack Developer passionate about technology and innovation.</p>
-						<p class="about__text">I love transforming ideas into functional and intuitive web applications, always seeking the best solutions for each challenge.</p>
-						<p class="about__text">My development journey has taken me to Belgium, where the adventure of living in a new country has inspired me to set new goals and explore new paths.</p>
-						<p class="about__text">I believe that curiosity and the willingness to learn are the keys to creating quality software.</p>
+						<p class="about__text">👋 <?php echo __('Junior Full Stack Developer passionate about technology and innovation') ?>.</p>
+						<p class="about__text"><?php echo __('I love transforming ideas into functional and intuitive web applications, always seeking the best solutions for each challenge') ?>.</p>
+						<p class="about__text"><?php echo __('My development journey has taken me to Belgium, where the adventure of living in a new country has inspired me to set new goals and explore new paths') ?>.</p>
+						<p class="about__text"><?php echo __('I believe that curiosity and the willingness to learn are the keys to creating quality software') ?>.</p>
 						<a href="index.php?email=sendX#contact">
-							<p class="about__text"><b>Let's build something amazing together!</b></p>
+							<p class="about__text"><b><?php echo __('Let\'s build something amazing together') ?>!</b></p>
 						</a>
 
 						<!-- about -->
@@ -144,7 +144,7 @@ Your name.....
 
 			<!-- page-title -->
 			<div class="page-title pb-40">
-				<h2 class="page-title__title">Get in touch</h2>
+				<h2 class="page-title__title"><?php echo __('Get in touch') ?></h2>
 				<div class="page-title__divider"></div>
 			</div><!-- End / page-title -->
 
@@ -158,17 +158,17 @@ Your name.....
 					<!-- contact -->
 					<div class="contact">
 						<div class="contact__icon"><i class="pe-7s-note"></i></div>
-						<h3 class="contact__title">address</h3>
+						<h3 class="contact__title"><?php echo __('Address') ?></h3>
 						<div class="contact__text">Spinnerijstaat,4</div>
 						<div class="contact__text">8930 - Lauwe</div>
-						<div class="contact__text">BELGIUM</div>
+						<div class="contact__text"><?php echo __('BELGIUM') ?></div>
 					</div><!-- End / contact -->
 
 
 					<!-- contact -->
 					<div class="contact">
 						<div class="contact__icon"><i class="pe-7s-back"></i></div>
-						<h3 class="contact__title">call me</h3>
+						<h3 class="contact__title"><?php echo __('call me') ?></h3>
 						<div class="contact__text">+32 468 43 18 23</div>
 					</div><!-- End / contact -->
 
@@ -186,7 +186,7 @@ Your name.....
 
 						<!-- form-item -->
 						<div class="form-item form-item--half">
-							<input class="" type="text" name="input" placeholder="your email" />
+							<input class="" type="text" name="input" placeholder="<?php echo __('your email') ?>" />
 						</div><!-- End / form-item -->
 						<!-- form-item -->
 						<div class="form-item">
@@ -200,7 +200,7 @@ Your name.....
 
 						<!-- form-item -->
 						<div class="form-item">
-							<a class="md-btn md-btn--primary md-btn--lg " href="#">Send message
+							<a class="md-btn md-btn--primary md-btn--lg " href="#"><?php echo __('Send message') ?>
 							</a>
 						</div><!-- End / form-item -->
 
