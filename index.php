@@ -1,4 +1,5 @@
 <?php
+require('lang.php');
 include('views/partials/header.php');
 include('views/partials/navbar.php');
 

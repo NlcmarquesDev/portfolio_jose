@@ -9,15 +9,28 @@
             </div>
         </a>
         <nav class="navbar navbar-main ">
-            <ul class="d-flex gap-3  ">
-                <li class="nav-item"><a class="nav-link page-title__text mx-2 " href="index.php#hero">Home</a>
+            <ul class="d-flex align-items-center gap-3  ">
+                <li class="nav-item"><a class="nav-link page-title__text mx-2 " href="index.php#hero"><?php echo __('Home') ?></a>
                 </li>
-                <li class="nav-item"><a class="nav-link page-title__text mx-2 " href="index.php#work">Work</a>
+                <li class="nav-item"><a class="nav-link page-title__text mx-2 " href="index.php#work"><?php echo __('Work') ?></a>
                 </li>
-                <li class="nav-item"><a class="nav-link page-title__text mx-2 " href="index.php#about">About</a>
+                <li class="nav-item"><a class="nav-link page-title__text mx-2 " href="index.php#about"><?php echo __('About') ?></a>
                 </li>
-                <li class="nav-item"><a class="nav-link page-title__text mx-2 " href="index.php#contact">Contact</a>
+                <li class="nav-item"><a class="nav-link page-title__text mx-2 " href="index.php#contact"><?php echo __('Contact') ?></a>
                 </li>
+                <!-- <li class="nav-item"> -->
+                <div class="dropdown">
+                    <a class=" dropdown-toggle language" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <?php echo __('Languages') ?>
+                    </a>
+
+                    <ul class="dropdown-menu language__drop ">
+                        <li><a class="nav-link language__item " href="index.php?lang=en">EN</a></li>
+                        <li><a class="nav-link language__item" href="index.php?lang=be">BE</a></li>
+                        <li><a class="nav-link language__item" href="index.php?lang=pt">PT</a></li>
+                    </ul>
+                </div>
+                <!-- </li> -->
                 <li>
                     <button id="toggle-theme" class="border-0 bg-transparent"> <i class="fa-regular fa-<?= $_COOKIE['theme'] == 'dark' ? 'lightbulb' : 'moon' ?> " style="color: #737272;"> </i></button>
                 </li>

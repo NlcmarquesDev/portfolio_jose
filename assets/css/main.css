@@ -14,6 +14,7 @@
 	4. button
 	5. about
 	6. contact
+  6.1 Language
 	7. form_item
 	8. fullscreenmenu
 	9. grid-css
@@ -866,6 +867,24 @@ ul {
 
 .contact__text {
   font-size: 14px;
+}
+/* 6.1 Language
+--------------------------------------------------------------------------------*/
+.language {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: #737272;
+}
+.language__drop {
+  border: 0;
+}
+.language__item {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: #737272;
+  border: none;
 }
 
 /* 7. form_item
