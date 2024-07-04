@@ -7,7 +7,7 @@ $jsonString = file_get_contents('projects.json');
 
 $data = json_decode($jsonString, true);
 
-$projects = $data['projects'];
+$projects = $data;
 
 
 if (isset($_GET['email'])) {
@@ -19,6 +19,8 @@ Your name.....
 	';
 }
 
+// var_dump($projects);
+// die();
 
 ?>
 
@@ -127,9 +129,6 @@ Your name.....
 
 							</div>
 						</div>
-
-
-
 					</div><!-- End /  -->
 
 				</div>

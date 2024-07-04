@@ -22,6 +22,14 @@ $lang = [
     'BELGIUM' => 'BÉLGICA',
     'call me' => 'Telefone',
     'your email' => 'Seu email',
-    'Send message' => 'Enviar mensagem'
+    'Send message' => 'Enviar mensagem',
+    'Description' => 'Descrição',
+    'Features' => 'Funcionalidades',
+    'Images' => 'Imagens',
+    'Short video example' => 'Exemplo de vídeo curto',
+    'All works' => 'Todos os Projectos',
+    'Ask for More' => 'Peça mais informações',
+    'GitHub Source Code - Click me' => 'Código-fonte GitHub – Clica aqui'
+
 
 ];

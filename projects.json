@@ -1,5 +1,5 @@
 {
-  "projects": [
+  "en": [
     {
       "id": 1,
       "name": "Videotheek App - A Rent Movies System",
@@ -166,6 +166,370 @@
         "Prioritize Notes: Users can mark notes as prioritized.",
         "Filter Notes: Users can filter notes by title or description.",
         "Database Storage: All notes and user information are stored securely in a MySQL database."
+      ],
+      "thumbnail": "assets/images/notes/photo1.png",
+      "images": [
+        "assets/images/notes/photo1.png",
+        "assets/images/notes/photo2.png",
+        "assets/images/notes/photo3.png",
+        "assets/images/notes/photo4.png"
+      ],
+      "github": "https://github.com/NlcmarquesDev/NotesFlow",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
+    }
+  ],
+  "pt": [
+    {
+      "id": 1,
+      "name": "VideoTeca App - Sistema de aLuguer de filmes",
+      "description": "Este projeto é um sistema simples de pesquisa de filmes para aluguer construído em PHP e MySQL. Permite aos utilizadores selecionar e alugar os filmes favoritos.",
+      "features": [
+        "Adicionar filmes ao carrinho: os utilizadores podem adicionar filmes a um carrinho de compras para acompanhar as suas seleções.",
+        "Ver carrinho: os utilizadores podem ver os filmes adicionados ao carrinho.",
+        "Apagar filmes: os utilizadores podem apagar filmes da sua lista de locais.",
+        "Cópias de filmes: O sistema acompanha o número de cópias de cada filme na loja. Quando um filme é alugado, as cópias disponíveis diminuem.",
+        "Armazenamento de base de dados: Todos os alugueres são guardados numa base de dados MySQL.",
+        "Arquitetura MVC: O projeto segue o padrão de design Model-View-Controller (MVC) para código organizado e de fácil manutenção."
+      ],
+      "thumbnail": "assets/images/videotheek/thumbnail.png",
+      "images": [
+        "assets/images/videotheek/thumbnail.png",
+        "assets/images/videotheek/photo2.png",
+        "assets/images/videotheek/photo3.png"
+      ],
+      "video": "assets/images/videotheek/videotheek_app_movie.mp4",
+      "github": "https://github.com/NlcmarquesDev/videotheek_vdab",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Plataforma de encomendas de sanduíches",
+      "description": "<p>Este projeto é uma plataforma de encomenda de sanduíches concebida especificamente para uma escola. Permite que os alunos inscritos façam pedidos de sanduíches antes das 10h de cada dia. Os alunos podem selecionar várias sanduíches com diferentes tipos de pão e ingredientes.</p><p>Para utilizar a plataforma, os alunos devem estar registados e as suas contas devem ser verificadas por e-mail. Os alunos podem iniciar sessão fornecendo o seu e-mail e palavra-passe.</p><p>Um e-mail de confirmação será enviado para o endereço de e-mail fornecido.</p><p>Se um aluno se esquecer da sua palavra-passe , ele poderá solicitar uma nova. Uma nova palavra-passe é enviada para o e-mail e deve ser confirmada para ficar ativa.</p>",
+      "features": [
+        "Registo de utilizador: O aluno deve registar-se para utilizar a plataforma. Durante o registo é enviado um e-mail de confirmação para o endereço de e-mail do aluno. A conta só se torna válida após a confirmação do e-mail .",
+        "Pedidos múltiplos: os alunos podem selecionar e encomendar várias sanduíches com vários ingredientes.",
+        "Confirmação por e-mail: A confirmação por e-mail é necessária tanto para o registo como para a redefinição da palavra-passe, aumentando a segurança e a validade das contas de utilizador.",
+        "Esqueci-me da palavra-passe: os alunos podem solicitar uma nova palavra-passe caso se esqueçam da atual. Uma nova palavra-passe é enviada por e-mail e deve ser confirmada antes de ficar ativa.",
+        "Model-View-Controller (MVC): Arquitetura para organizar a base de código de forma eficiente."
+      ],
+      "thumbnail": "assets/images/sandwich/photo1.png",
+      "images": [
+        "assets/images/sandwich/photo1.png",
+        "assets/images/sandwich/photo2.png",
+        "assets/images/sandwich/photo3.png",
+        "assets/images/sandwich/photo4.png",
+        "assets/images/sandwich/photo5.png"
+      ],
+      "github": "https://github.com/NlcmarquesDev/sandwich-school-app",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Aplicação para máquina de bebidas",
+      "description": "<p>Este projeto é um simulador de máquina de venda automática de bebidas construído utilizando o padrão de design MVC (Model-View-Controller). A aplicação permite ao utilizador selecionar bebidas, simular a inserção de moedas e receber uma mensagem de confirmação assim que a transação estiver concluída.</p><p> Além disso, existe um painel de administração para visualização de pedidos e bebidas dispensadas, apenas acessível através de um login seguro.",
+      "features": [
+        "Interface do utilizador: selecione bebidas, introduza moedas e receba uma mensagem de confirmação.",
+        "Painel de administração: Visualize os pedidos e as bebidas dispensadas com autenticação de login.",
+        "Padrão MVC: Separação de interesses com camadas de modelo, visualização e controlador.",
+        "Integração MySQL: Persistência de dados para encomendas e bebidas.",
+        "Selecionar bebida: escolha uma bebida da lista.",
+        "Inserir Moedas: Clique nos botões para simular a inserção de moedas.",
+        "Obter confirmação: Assim que a quantidade necessária for introduzida, receba uma mensagem indicando que a bebida pode ser recuperada.",
+        "Ver Encomendas: Após efetuar o login, visualize a lista de encomendas e bebidas dispensadas."
+      ],
+      "thumbnail": "assets/images/drinks/dashboard.png",
+      "images": [
+        "assets/images/drinks/drink_app.png",
+        "assets/images/drinks/dashboard.png",
+        "assets/images/drinks/adddrink.png",
+        "assets/images/drinks/drinks.png",
+        "assets/images/drinks/orders.png"
+      ],
+      "github": "https://github.com/NlcmarquesDev/machine_drinks",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Job Lister: um sistema simples de procura de emprego",
+      "description": "<p>Este projeto é um sistema simples de pesquisa de emprego construído em PHP e MySQL. Permite que os utilizadores publiquem vagas de emprego e que os candidatos pesquisem vagas com base nas suas qualificações.</p>",
+      "features": [
+        "Filtro de categoria: os utilizadores podem filtrar as ofertas de emprego por categoria, como 'Tecnologia', 'Marketing' ou 'Vendas'.",
+        "Paginação: os resultados da pesquisa são paginados para facilitar a navegação.",
+        "Formulário com várias entradas: o formulário de procura de emprego permite aos utilizadores filtrar por vários critérios, como experiência, salário e localização.",
+        "Armazenamento de base de dados: as vagas de emprego e as inscrições são guardadas numa base de dados MySQL."
+      ],
+      "thumbnail": "assets/images/job/photo1.png",
+      "images": [
+        "assets/images/job/photo1.png",
+        "assets/images/job/photo2.png",
+        "assets/images/job/photo3.png",
+        "assets/images/job/photo4.png"
+      ],
+      "video": "assets/images/job/sample.mov",
+      "github": "https://github.com/NlcmarquesDev/Job-Lister",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Trello Clone Edition",
+      "description": "<p>Bem-vindo ao Trello Clone Edition, um projeto inspirado na popular ferramenta de gestão de projetos Trello. Esta aplicação simples, mas poderosa, permite-lhe organizar as suas tarefas, projetos e ideias em quadros digitais, trazendo eficiência e colaboração ao seu fluxo de trabalho.</p>",
+      "features": [
+        "Criação de Quadros: Crie vários quadros para categorizar e gerir diferentes projetos ou aspetos da sua vida.",
+        "Listas e cartões: organize o seu trabalho em listas e adicione tarefas ou ideias individuais como cartões dentro de cada lista.",
+        "Interface de arrastar e largar: mova facilmente os cartões entre listas e reordene-os dentro de uma lista utilizando uma ação simples de arrastar e largar.",
+        "Etiquetas: utilize etiquetas codificadas por cores para categorizar os cartões com base na prioridade, no estado ou em qualquer critério personalizado que desejar."
+      ],
+      "thumbnail": "assets/images/trello/photo1.png",
+      "images": [
+        "assets/images/trello/photo1.png",
+        "assets/images/trello/photo2.png"
+      ],
+      "github": "https://github.com/NlcmarquesDev/trello_mini_edition",
+      "icons": [
+        "<i class='fa-brands fa-vuejs fa-2xl' style='color: #09b984;'></i>"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Aplicação de uma Loja virtual",
+      "description": "<p>Este projeto é uma plataforma de comércio eletrónico abrangente construída com recurso à estrutura Laravel e MySQL. Proporciona uma experiência de loja online completa, incluindo autenticação de utilizadores, gestão de produtos, gestão de categorias e capacidades de filtragem.</p>",
+      "features": [
+        "Autenticação de utilizadores: sistema seguro de login e registo para utilizadores.",
+        "Gestão de produtos: os administradores podem adicionar, editar e eliminar produtos da loja.",
+        "Gestão de categorias: os administradores podem gerir categorias de produtos para organizar a loja.",
+        "Gestão de utilizadores: os administradores podem gerir os utilizadores e as suas funções na plataforma.",
+        "Filtros de produtos: os utilizadores podem filtrar produtos com base em categorias, preço e outros atributos.",
+        "Histórico de pedidos para utilizadores.",
+        "Painel de administração para gerir produtos, encomendas e utilizadores.",
+        "Armazenamento de base de dados: todos os dados são armazenados em segurança numa base de dados MySQL.",
+        "Arquitetura MVC: O projeto segue o padrão de design Model-View-Controller (MVC) para código organizado e de fácil manutenção."
+      ],
+      "thumbnail": "assets/images/ecommerce/photo1.png",
+      "images": [
+        "assets/images/ecommerce/photo1.png",
+        "assets/images/ecommerce/photo2.png",
+        "assets/images/ecommerce/photo3.png",
+        "assets/images/ecommerce/photo4.png",
+        "assets/images/ecommerce/photo5.png",
+        "assets/images/ecommerce/photo6.png",
+        "assets/images/ecommerce/photo7.png",
+        "assets/images/ecommerce/photo8.png",
+        "assets/images/ecommerce/photo9.png"
+      ],
+      "github": "https://github.com/NlcmarquesDev/finalproject_ecommerce",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<i class='fa-brands fa-laravel fa-2xl' style='color: #e70808;'></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "NotesFlow application ",
+      "description": "<p>Este projeto é uma aplicação de notas criada usando PHP e MySQL. Permite aos utilizadores criar, ler, atualizar e eliminar notas 'CRUD', marcar as notas como priorizadas e filtrar as notas por título ou descrição.</p><p>Cada utilizador só pode ver as suas próprias notas através de um sistema de login seguro .</p>",
+      "features": [
+        "Autenticação de utilizadores: sistema seguro de login e registo para utilizadores.",
+        "Operações CRUD: os utilizadores podem criar, ler, atualizar e eliminar as suas notas.",
+        "Priorizar notas: os utilizadores podem marcar as notas como priorizadas.",
+        "Filtrar notas: os utilizadores podem filtrar as notas por título ou descrição.",
+        "Armazenamento de base de dados: todas as notas e informações do utilizador são armazenadas em segurança numa base de dados MySQL."
+      ],
+      "thumbnail": "assets/images/notes/photo1.png",
+      "images": [
+        "assets/images/notes/photo1.png",
+        "assets/images/notes/photo2.png",
+        "assets/images/notes/photo3.png",
+        "assets/images/notes/photo4.png"
+      ],
+      "github": "https://github.com/NlcmarquesDev/NotesFlow",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
+    }
+  ],
+  "be": [
+    {
+      "id": 1,
+      "name": "Videotheek App - Een huurfilmsysteem",
+      "description": "Dit project is een eenvoudig zoeksysteem voor huurfilms, gebouwd met behulp van PHP en MySQL. Hiermee kunnen gebruikers hun favoriete films selecteren en huren.",
+      "features": [
+        "Voeg films toe aan winkelwagen: gebruikers kunnen films aan een winkelwagen toevoegen om hun selecties bij te houden.",
+        "Bekijk winkelwagen: gebruikers kunnen de films bekijken die aan hun winkelwagen zijn toegevoegd.",
+        "Films verwijderen: gebruikers kunnen films van hun huurlijst verwijderen.",
+        "Filmkopieën: het systeem houdt het aantal exemplaren van elke film in de winkel bij. Wanneer een film wordt gehuurd, nemen de beschikbare exemplaren af.",
+        "Databaseopslag: alle huurprijzen worden opgeslagen in een MySQL-database.",
+        "MVC-architectuur: het project volgt het Model-View-Controller (MVC)-ontwerppatroon voor georganiseerde en onderhoudbare code."
+      ],
+      "thumbnail": "assets/images/videotheek/thumbnail.png",
+      "images": [
+        "assets/images/videotheek/thumbnail.png",
+        "assets/images/videotheek/photo2.png",
+        "assets/images/videotheek/photo3.png"
+      ],
+      "video": "assets/images/videotheek/videotheek_app_movie.mp4",
+      "github": "https://github.com/NlcmarquesDev/videotheek_vdab",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sandwich Ordering Platform",
+      "description": "<p>Dit project is een platform voor het bestellen van broodjes, speciaal ontworpen voor een school. Hiermee kunnen geregistreerde studenten elke dag vóór 10.00 uur broodjes bestellen. Studenten kunnen meerdere sandwiches selecteren met verschillende soorten brood en ingrediënten.</p><p>Om het platform te gebruiken, moeten studenten geregistreerd zijn en hun accounts moeten via e-mail worden geverifieerd. Studenten kunnen inloggen door hun e-mailadres en wachtwoord op te geven.</p><p>Er wordt een bevestigingsmail verzonden naar het opgegeven e-mailadres.</p><p>Als een student zijn wachtwoord vergeet, kan hij een nieuw wachtwoord aanvragen. Er wordt een nieuw wachtwoord naar hun e-mailadres verzonden en dit moet worden bevestigd om actief te worden.</p>",
+      "features": [
+        "Gebruikersregistratie: Studenten moeten zich registreren om het platform te gebruiken. Tijdens de registratie wordt een bevestigingsmail verzonden naar het e-mailadres van de student. Het account wordt pas geldig nadat de e-mail is bevestigd.",
+        "Meerdere bestellingen: Studenten kunnen meerdere broodjes met verschillende ingrediënten selecteren en bestellen.",
+        "E-mailbevestiging: e-mailbevestiging is vereist voor zowel registratie als wachtwoordreset, waardoor de veiligheid en geldigheid van gebruikersaccounts wordt verbeterd.",
+        "Wachtwoord vergeten: Studenten kunnen een nieuw wachtwoord aanvragen als ze hun huidige vergeten. Een nieuw wachtwoord wordt via e-mail verzonden en moet worden bevestigd voordat het actief wordt.",
+        "Model-View-Controller (MVC): architectuur voor het efficiënt organiseren van codebase."
+      ],
+      "thumbnail": "assets/images/sandwich/photo1.png",
+      "images": [
+        "assets/images/sandwich/photo1.png",
+        "assets/images/sandwich/photo2.png",
+        "assets/images/sandwich/photo3.png",
+        "assets/images/sandwich/photo4.png",
+        "assets/images/sandwich/photo5.png"
+      ],
+      "github": "https://github.com/NlcmarquesDev/sandwich-school-app",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Drankautomaat-app",
+      "description": "p>Dit project is een simulator voor drankautomaten, gebouwd met behulp van het MVC-ontwerppatroon (Model-View-Controller). Met de app kunnen gebruikers dranken selecteren, het inwerpen van munten simuleren en een bevestigingsbericht ontvangen zodra de transactie is voltooid.</p><p> Bovendien is er een beheerderspaneel voor het bekijken van bestellingen en verstrekte dranken, dat alleen toegankelijk is via een beveiligde login. </p>",
+      "features": [
+        "Gebruikersinterface: selecteer dranken, voer munten in en ontvang een bevestigingsbericht.",
+        "Admin Panel: Bekijk bestellingen en verstrekte dranken met inlogauthenticatie.",
+        "MVC-patroon: scheiding van zorgen met model-, weergave- en controllerlagen.",
+        "MySQL-integratie: gegevenspersistentie voor bestellingen en dranken.",
+        "Selecteer drank: Kies een drank uit de lijst.",
+        "Munten invoegen: klik op de knoppen om het inbrengen van munten te simuleren.",
+        "Krijg bevestiging: zodra de gewenste hoeveelheid is ingevoerd, ontvangt u een bericht waarin wordt aangegeven dat de drank kan worden opgehaald.",
+        "Bestellingen bekijken: bekijk na het inloggen de lijst met bestellingen en verstrekte dranken."
+      ],
+      "thumbnail": "assets/images/drinks/dashboard.png",
+      "images": [
+        "assets/images/drinks/drink_app.png",
+        "assets/images/drinks/dashboard.png",
+        "assets/images/drinks/adddrink.png",
+        "assets/images/drinks/drinks.png",
+        "assets/images/drinks/orders.png"
+      ],
+      "github": "https://github.com/NlcmarquesDev/machine_drinks",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Job Lister: een eenvoudig zoeksysteem voor vacatures",
+      "description": "<p>Dit project is een eenvoudig zoeksysteem voor vacatures, gebouwd met behulp van PHP en MySQL. Hiermee kunnen gebruikers vacatures plaatsen en kunnen kandidaten naar vacatures zoeken op basis van hun kwalificaties.</p>",
+      "features": [
+        "Categoriefilter: gebruikers kunnen vacatures filteren op categorie, zoals 'Technologie', 'Marketing' of 'Verkoop'.",
+        "Paginatie: zoekresultaten zijn gepagineerd voor eenvoudiger navigatie.",
+        "Formulier met verschillende invoer: met het zoekformulier voor een baan kunnen gebruikers filteren op verschillende criteria, zoals ervaring, salaris en locatie.",
+        "Databaseopslag: Vacatures en sollicitaties worden opgeslagen in een MySQL-database."
+      ],
+      "thumbnail": "assets/images/job/photo1.png",
+      "images": [
+        "assets/images/job/photo1.png",
+        "assets/images/job/photo2.png",
+        "assets/images/job/photo3.png",
+        "assets/images/job/photo4.png"
+      ],
+      "video": "assets/images/job/sample.mov",
+      "github": "https://github.com/NlcmarquesDev/Job-Lister",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Trello Clone Edition",
+      "description": "<p>Welkom bij Trello Clone Edition, een project geïnspireerd op de populaire projectmanagementtool Trello. Met deze eenvoudige maar krachtige applicatie kunt u uw taken, projecten en ideeën op digitale borden organiseren, waardoor uw workflow efficiënter en beter samenwerkt.</p>",
+      "features": [
+        "Board Creatie: Maak meerdere boards om verschillende projecten of aspecten van je leven te categoriseren en te beheren.",
+        "Lijsten en kaarten: Organiseer uw werk in lijsten en voeg individuele taken of ideeën toe als kaarten binnen elke lijst.",
+        "Drag-and-drop-interface: verplaats kaarten eenvoudig tussen lijsten en herschik ze binnen een lijst met behulp van een eenvoudige slepen-en-neerzetten-actie.",
+        "Etiketten: gebruik kleurgecodeerde labels om kaarten te categoriseren op basis van prioriteit, status of eventuele aangepaste criteria die u wenst."
+      ],
+      "thumbnail": "assets/images/trello/photo1.png",
+      "images": [
+        "assets/images/trello/photo1.png",
+        "assets/images/trello/photo2.png"
+      ],
+      "github": "https://github.com/NlcmarquesDev/trello_mini_edition",
+      "icons": [
+        "<i class='fa-brands fa-vuejs fa-2xl' style='color: #09b984;'></i>"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Ecommerce web application ",
+      "description": "<p>Dit project is een uitgebreid e-commerceplatform dat is gebouwd met behulp van het Laravel-framework en MySQL. Het biedt een complete online winkelervaring, inclusief gebruikersauthenticatie, productbeheer, categoriebeheer en filtermogelijkheden.</p>",
+      "features": [
+        "Gebruikersauthenticatie: veilig inlog- en registratiesysteem voor gebruikers.",
+        "Productbeheer: beheerders kunnen producten uit de winkel toevoegen, bewerken en verwijderen.",
+        "Categoriebeheer: beheerders kunnen productcategorieën beheren om de winkel te organiseren.",
+        "Gebruikersbeheer: beheerders kunnen gebruikers en hun rollen binnen het platform beheren.",
+        "Productfilters: gebruikers kunnen producten filteren op basis van categorieën, prijs en andere kenmerken.",
+        "Bestelgeschiedenis voor gebruikers.",
+        "Beheerderspaneel om producten, bestellingen en gebruikers te beheren.",
+        "Databaseopslag: alle gegevens worden veilig opgeslagen in een MySQL-database.",
+        "MVC-architectuur: het project volgt het Model-View-Controller (MVC)-ontwerppatroon voor georganiseerde en onderhoudbare code."
+      ],
+      "thumbnail": "assets/images/ecommerce/photo1.png",
+      "images": [
+        "assets/images/ecommerce/photo1.png",
+        "assets/images/ecommerce/photo2.png",
+        "assets/images/ecommerce/photo3.png",
+        "assets/images/ecommerce/photo4.png",
+        "assets/images/ecommerce/photo5.png",
+        "assets/images/ecommerce/photo6.png",
+        "assets/images/ecommerce/photo7.png",
+        "assets/images/ecommerce/photo8.png",
+        "assets/images/ecommerce/photo9.png"
+      ],
+      "github": "https://github.com/NlcmarquesDev/finalproject_ecommerce",
+      "icons": [
+        "<i class='fa-brands fa-php text-primary fa-2xl '></i>",
+        "<i class='fa-brands fa-laravel fa-2xl' style='color: #e70808;'></i>",
+        "<img src='assets/images/iconsMysql.png'>"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "NotesFlow application ",
+      "description": "<p>Dit project is een notitietoepassing gebouwd met behulp van pure PHP en MySQL. Hiermee kunnen gebruikers 'CRUD'-notities maken, lezen, bijwerken en verwijderen, notities als prioriteit markeren en notities filteren op titel of beschrijving.</p><p>Elke gebruiker kan alleen zijn eigen notities zien via een beveiligd inlogsysteem .</p>",
+      "features": [
+        "Gebruikersauthenticatie: veilig inlog- en registratiesysteem voor gebruikers.",
+        "CRUD-bewerkingen: gebruikers kunnen hun notities maken, lezen, bijwerken en verwijderen.",
+        "Geef notities prioriteit: gebruikers kunnen notities als prioriteit markeren.",
+        "Notities filteren: gebruikers kunnen notities filteren op titel of beschrijving.",
+        "Databaseopslag: alle notities en gebruikersinformatie worden veilig opgeslagen in een MySQL-database."
       ],
       "thumbnail": "assets/images/notes/photo1.png",
       "images": [

@@ -1,4 +1,5 @@
 <?php
+require('lang.php');
 include('views/partials/header.php');
 include('views/partials/navbar.php');
 
@@ -6,7 +7,7 @@ $jsonString = file_get_contents('projects.json');
 
 $data = json_decode($jsonString, true);
 
-$projects = $data['projects'];
+$projects = $data[$_SESSION['lang']];
 
 $projectById = [];
 if (isset($_GET['id'])) {
@@ -52,32 +53,32 @@ $project = $projectById[0];
 			<!--  -->
 			<div>
 				<div class="work-detail__entry">
-					<h3>Description</h3>
+					<h3><?php echo __('Description') ?></h3>
 					<p><?= $project['description'] ?></p><br>
-					<h3>Features</h3>
+					<h3><?php echo __('Features') ?></h3>
 					<?php foreach ($project['features'] as $feature) : ?>
 						<p><?= $feature ?></p><br>
 					<?php endforeach ?>
 
 					<a class="github-link" href="<?= $project['github'] ?>">
-						<h3>GitHub Source Code - Click me! </h3>
+						<h3><?php echo __('GitHub Source Code - Click me') ?>! </h3>
 					</a><br>
-					<h3>Images</h3>
+					<h3><?php echo __('Images') ?></h3>
 					<?php foreach ($project['images'] as $image) : ?>
 						<div class="work-img pb-3"><img src="<?= $image ?>" alt=""></div>
 					<?php endforeach ?>
 					<?php if (isset($project['video'])) : ?>
 						<div class=" ">
-							<h3>Short video example</h3>
+							<h3><?php echo __('Short video example') ?></h3>
 							<video class="mt-4 mx-auto" src="<?= $project['video'] ?>" type="video/mp4" width="720" height="540" controls="controls" autoplay="autoplay"></video>
 						</div>
 					<?php endif ?>
 				</div>
 
 				<div class="awe-text-center mt-50">
-					<a class="md-btn md-btn--outline-primary " href="index.php">All works
+					<a class="md-btn md-btn--outline-primary " href="index.php"><?php echo __('All works') ?>
 					</a>
-					<a class="md-btn md-btn--outline-primary " href="index.php?email=sendX#contact">Ask for More
+					<a class="md-btn md-btn--outline-primary " href="index.php?email=sendX#contact"><?php echo __('Ask for More') ?>
 					</a>
 				</div>
 			</div>

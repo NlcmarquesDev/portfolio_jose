@@ -6,11 +6,12 @@ function ranfEffect()
     return $effects[$number];
 }
 
+
 ?>
 <div class="grid-css grid-css--masonry" data-col-lg="3" data-col-md="2" data-col-sm="2" data-col-xs="1" data-gap="30">
     <div class="grid__inner">
         <div class="grid-sizer"></div>
-        <?php foreach ($projects as $project) : ?>
+        <?php foreach ($projects[$_SESSION['lang']] as $project) : ?>
             <div class="grid-item">
                 <div class="grid-item__inner">
                     <div class="grid-item__content-wrapper">

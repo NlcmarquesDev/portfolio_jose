@@ -23,5 +23,13 @@ $lang = [
     'BELGIUM' => 'BELGIË',
     'call me' => 'Bel mij',
     'your email' => 'Uw e-mailadres',
-    'Send message' => 'Bericht versturen'
+    'Send message' => 'Bericht versturen',
+    'Description' => 'Beschrijving',
+    'Features' => 'Features',
+    'Images' => 'Afbeeldingen',
+    'Short video example' => 'Kort videovoorbeeld',
+    'All works' => 'Alle Werken',
+    'Ask for More' => 'Vraag om meer',
+    'GitHub Source Code - Click me' => 'GitHub Source Code – Klik op mij'
+
 ];
