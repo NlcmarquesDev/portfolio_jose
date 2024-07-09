@@ -41,6 +41,14 @@
 
 /* 1. base
 --------------------------------------------------------------------------------*/
+@font-face {
+  font-family: "openDyslexie";
+  src: url("../fonts/openDyslexie/OpenDyslexic-Regular.otf");
+}
+
+.font-dyslexie {
+  font-family: "openDyslexie", sans-serif;
+}
 
 a[disabled],
 input[disabled],

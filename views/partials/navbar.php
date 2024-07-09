@@ -18,7 +18,6 @@
                 </li>
                 <li class="nav-item"><a class="nav-link page-title__text mx-2 " href="index.php#contact"><?php echo __('Contact') ?></a>
                 </li>
-                <!-- <li class="nav-item"> -->
                 <div class="dropdown">
                     <a class=" dropdown-toggle language" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <?php echo __('Languages') ?>
@@ -30,7 +29,12 @@
                         <li><a class="nav-link language__item" href="index.php?lang=pt">PT</a></li>
                     </ul>
                 </div>
-                <!-- </li> -->
+
+                <button type="button" class="btn btn-secondary btn-lg fs-2" id="toggle-dyslexie" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="This top tooltip is themed via CSS variables.">
+                    D
+                </button>
+
+
                 <li>
                     <button id="toggle-theme" class="border-0 bg-transparent"> <i class="fa-regular fa-<?= $_COOKIE['theme'] == 'dark' ? 'lightbulb' : 'moon' ?> " style="color: #737272;"> </i></button>
                 </li>
@@ -53,7 +57,15 @@
                 </li>
                 <li><a href="#contact">Contact</a>
                 </li>
+                <li>
+                    <div class="d-flex flex-column gap-3">
+                        <a class="nav-link language__item " href="index.php?lang=en">EN</a>
+                        <a class="nav-link language__item" href="index.php?lang=be">BE</a>
+                        <a class="nav-link language__item" href="index.php?lang=pt">PT</a>
+                    </div>
+                </li>
             </ul>
+
 
         </nav>
     </div>

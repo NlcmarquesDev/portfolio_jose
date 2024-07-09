@@ -139,7 +139,24 @@
         document.cookie = "theme=light; path=/";
       }
       location.reload();
-      console.log(document.cookie);
+    });
+
+    if (getCookie("font") === "font-dyslexie") {
+      $("body").addClass("font-dyslexie");
+      $("h2, h3,h4, h5").addClass("font-dyslexie");
+      $(".md-btn").css("font-family", "");
+    }
+
+    $("#toggle-dyslexie").click(function () {
+      $("body").toggleClass("font-dyslexie");
+      $("h2, h3,h4, h5").toggleClass("font-dyslexie");
+      $(".md-btn").css("font-family", "");
+      if ($("body").hasClass("font-dyslexie")) {
+        document.cookie = "font=font-dyslexie; path=/";
+      } else {
+        document.cookie = "font=normal; path=/";
+      }
+      location.reload();
     });
   });
 

@@ -9,6 +9,7 @@ class Database
     public function connection()
     {
         $dsn = 'mysql:host=' . DBconfig::$DBhost . ';dbname=' . DBconfig::$DBname . ';charset=utf8;unix_socket=' . DBconfig::$DBsocket;
+        // $dsn = 'mysql:host=' . DBconfig::$DBhost . ';dbname=' . DBconfig::$DBname . ';charset=utf8';
 
         return new PDO($dsn, Dbconfig::$DBuser, DBconfig::$DBpass);
     }

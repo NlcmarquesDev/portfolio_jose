@@ -1,6 +1,9 @@
 <?php
 session_start();
 require('Core/EmailDAO.php');
+
+
+
 $email = new EmailDAO();
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {

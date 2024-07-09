@@ -1,5 +1,6 @@
 <?php
 require('lang.php');
+// echo $_SERVER['SERVER_NAME'];
 
 include('views/partials/header.php');
 include('views/partials/navbar.php');
