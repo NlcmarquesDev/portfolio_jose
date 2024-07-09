@@ -417,7 +417,7 @@
     {
       "id": 3,
       "name": "Drankautomaat-app",
-      "description": "p>Dit project is een simulator voor drankautomaten, gebouwd met behulp van het MVC-ontwerppatroon (Model-View-Controller). Met de app kunnen gebruikers dranken selecteren, het inwerpen van munten simuleren en een bevestigingsbericht ontvangen zodra de transactie is voltooid.</p><p> Bovendien is er een beheerderspaneel voor het bekijken van bestellingen en verstrekte dranken, dat alleen toegankelijk is via een beveiligde login. </p>",
+      "description": "<p>Dit project is een simulator voor drankautomaten, gebouwd met behulp van het MVC-ontwerppatroon (Model-View-Controller). Met de app kunnen gebruikers dranken selecteren, het inwerpen van munten simuleren en een bevestigingsbericht ontvangen zodra de transactie is voltooid.</p><p> Bovendien is er een beheerderspaneel voor het bekijken van bestellingen en verstrekte dranken, dat alleen toegankelijk is via een beveiligde login. </p>",
       "features": [
         "Gebruikersinterface: selecteer dranken, voer munten in en ontvang een bevestigingsbericht.",
         "Admin Panel: Bekijk bestellingen en verstrekte dranken met inlogauthenticatie.",

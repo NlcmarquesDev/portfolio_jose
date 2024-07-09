@@ -122,8 +122,6 @@
       $("h2, h3, h5").addClass("dark-mode");
       $("#work, #contact, #about, #single-work").toggleClass("bg-gray");
       $(".md-btn").css({ color: "white" });
-      // document.cookie = "theme=dark; path=/";
-      // location.reload();
     }
 
     // Toggle theme on button click and set the cookie
@@ -134,7 +132,6 @@
       $(".md-btn").css({ color: "white" });
       if ($("body").hasClass("dark-mode")) {
         document.cookie = "theme=dark; path=/";
-        // location.reload();
       } else {
         document.cookie = "theme=light; path=/";
       }
@@ -144,13 +141,12 @@
     if (getCookie("font") === "font-dyslexie") {
       $("body").addClass("font-dyslexie");
       $("h2, h3,h4, h5").addClass("font-dyslexie");
-      $(".md-btn").css("font-family", "");
     }
 
     $("#toggle-dyslexie").click(function () {
       $("body").toggleClass("font-dyslexie");
       $("h2, h3,h4, h5").toggleClass("font-dyslexie");
-      $(".md-btn").css("font-family", "");
+
       if ($("body").hasClass("font-dyslexie")) {
         document.cookie = "font=font-dyslexie; path=/";
       } else {
